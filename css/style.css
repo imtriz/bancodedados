@@ -1,19 +1,24 @@
 .principal {
-   background-color: rgb(255, 160, 126);
+   background-color: rgb(237, 169, 52);
    height: 130px;
    width: 100%;
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
    display: flex;
    align-items: center;
    justify-content: space-between;
    margin-top: 20px;
+   position: relative;
 }
 
-body {
-    background-color: rgb(244, 154, 122);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/istockphoto-1363442716-612x612.jpg);
 }
+
+
 
 .logo {
     margin-left: 60px;
@@ -37,6 +42,8 @@ body {
 
 .login img {
      padding: 40px;
+     height: 80%;
+     width: 140px;
 
 }
 
@@ -49,27 +56,30 @@ body {
 }
 
 nav {
-    background-color: orangered;
-    margin-bottom: 400px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flexbox;
+    background-color: rgb(238, 146, 26);
+    text-align: center;
+    height: 100px;
+    
 }
 
 
-.menu li {
+nav li {
      display: inline-block;
-
+     
 }
-.menu li a {
+nav li a {
     text-decoration: none;
     color: black;
     padding: 40px;
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    
 
 }
+
+
 
 .dropdown-menu a {
     display: block;
@@ -80,15 +90,19 @@ nav {
 .dropdown-menu {
     position: absolute;
     box-shadow: 0 0 2px black;
+    background-color: burlywood;
     display: none;
-
+    
+    
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdowm:hover .dropdown-menu {
     display: block;
 }
 
-.menu li a:hover {
+
+
+nav li a:hover {
     background-color: orangered;
 }
 
